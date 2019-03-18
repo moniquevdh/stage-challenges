@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trick or treat!</title>
+    </head>
+    <body>
+        <label>Vampires</label>
+        <input id="vampire" type="text" /><br />
+
+        <label>Zombies</label>
+        <input id="zombie" type="text" /><br />
+
+        <label>Witches</label>
+        <input id="witch" type="text" /><br />
+
+        <label>Houses</label>
+        <input id="house" type="text" />
+
+        <button onclick=totalCandy()>click</button>
+
+        <div id="paragraph"></div>
+
+        <script>
+            function totalCandy() {
+                var vampireKids = parseInt(document.getElementById("vampire").value);
+                var vampireCandy = vampireKids * 3;
+
+                var zombieKids = parseInt(document.getElementById("zombie").value);
+                var zombieCandy = zombieKids * 4;
+
+                var witchKids = parseInt(document.getElementById("witch").value);
+                var witchCandy = witchKids * 5;
+
+                var totalHouses = document.getElementById("house").value;
+               
+                var totalKids = vampireKids + zombieKids + witchKids;
+                var total = vampireCandy + zombieCandy + witchCandy;
+                var totalCandy = total * totalHouses;
+
+                var share = totalCandy / totalKids;
+
+                document.getElementById("paragraph").innerHTML = Math.floor(share);
+            }
+        </script>
+    </body>
+</html>
