@@ -5,13 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Challenges</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
         <!-- Styles -->
         <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            @font-face {
+                font-family: Din;
+                src: url('fonts/DIN-Regular.ttf');
+            }
+
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -19,6 +31,49 @@
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
+            }
+
+            .full-width: {
+                width: 100%;
+            }
+
+            nav{
+                background-color: #222;
+                height: 50px; 
+                padding-top: 0.9%;
+            }
+
+            ul{
+                float: right;
+            }
+
+            ul li{
+                display: inline;
+                font-family: 'Din';
+                font-size: 10px;
+                text-transform: uppercase;
+                padding-left: 1%;
+            }
+
+            ul li a{
+                color: white;
+            }
+
+            ul li a:hover{
+                color: white;
+                text-decoration: none;
+            }
+
+            .background{
+                background-image: url('images/background.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            .header img{
+                width: 100%;
+                padding: 0;
             }
 
             .full-height {
@@ -65,7 +120,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @if (Auth::check())
@@ -77,18 +132,26 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="background full-height">
+                        <nav>
+                            <ul class="col col-lg-5">
+                                <li><a href="#">Word clean up</a></li>
+                                <li><a href="#">Fizz Buzz</a></li>
+                                <li><a href="#">Trick or treat</a></li>
+                                <li><a href="#">Roman numerals</a></li>
+                            </ul>
+                        </nav>
+                        <div class="full-width header ">
+                            <img src="images/headerStarwars.png" alt="Header" />
+                        </div>
+                        
+                    </div>
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                    
+                
             </div>
         </div>
     </body>
