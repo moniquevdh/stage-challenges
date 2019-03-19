@@ -25,52 +25,23 @@
             }
 
             html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
+                background-image: url('images/background.jpg');
+                background-size: cover;
+                background-attachment: fixed;
+                width: 100%;
+            }
+
+            h1{
+                color: white;
+                font-size: 20px;
+                font-family: 'Din';
+                text-align: center; 
             }
 
             .full-width: {
                 width: 100%;
             }
-
-            nav{
-                background-color: #222;
-                height: 50px; 
-                padding-top: 0.9%;
-            }
-
-            ul{
-                float: right;
-            }
-
-            ul li{
-                display: inline;
-                font-family: 'Din';
-                font-size: 10px;
-                text-transform: uppercase;
-                padding-left: 1%;
-            }
-
-            ul li a{
-                color: white;
-            }
-
-            ul li a:hover{
-                color: white;
-                text-decoration: none;
-            }
-
-            .background{
-                background-image: url('images/background.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed;
-            }
-
+            
             .header img{
                 width: 100%;
                 padding: 0;
@@ -78,6 +49,12 @@
 
             .full-height {
                 height: 100vh;
+            }
+
+            .text{
+                font-size: 8px;
+                font-family: ;
+                color: white;
             }
 
             .flex-center {
@@ -134,10 +111,10 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="background full-height">
+                    <div>
                         <nav>
                             <ul class="col col-lg-5">
-                                <li><a href="{{ url('/clean') }}">Word clean up</a></li>
+                                <li><a href="#">Word clean up</a></li>
                                 <li><a href="#">Fizz Buzz</a></li>
                                 <li><a href="#">Trick or treat</a></li>
                                 <li><a href="#">Roman numerals</a></li>
@@ -146,11 +123,22 @@
                         <div class="full-width header ">
                             <img src="images/headerStarwars.png" alt="Header" />
                         </div>
-                        
+                        <div class="container">
+                            <h1>Word clean up</h1>
+                            <div class="row">
+                                <div class="col col-lg-6 text">
+                                    <p id="paragraph1"></p>
+                                    <p id="paragraph2"></p>
+                                    <p id="paragraph3"></p>
+                                    <p id="paragraph4"></p>
+                                    <p id="paragraph5"></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                    
+                <script src="js/clean.js" ></script>   
                 
             </div>
         </div>
