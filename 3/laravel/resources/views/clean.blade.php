@@ -11,107 +11,18 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
 
-        <!-- Styles -->
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-            }
-
-            @font-face {
-                font-family: Din;
-                src: url('fonts/DIN-Regular.ttf');
-            }
-
-            html, body {
-                background-image: url('images/background.jpg');
-                background-size: cover;
-                background-attachment: fixed;
-                width: 100%;
-            }
-
-            h1{
-                color: white;
-                font-size: 20px;
-                font-family: 'Din';
-                text-align: center; 
-            }
-
-            .full-width: {
-                width: 100%;
-            }
-            
-            .header img{
-                width: 100%;
-                padding: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .text{
-                font-size: 8px;
-                font-family: ;
-                color: white;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
     </head>
     <body>
         <div class="full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
 
             <div class="container-fluid">
                 <div class="row">
                     <div>
+                        <div class="full-width header ">
+                            <img src="images/headerStarwars.png" alt="Header" />
+                        </div>
                         <nav>
                             <ul class="col col-lg-5">
                                 <li><a href="#">Word clean up</a></li>
@@ -120,9 +31,6 @@
                                 <li><a href="#">Roman numerals</a></li>
                             </ul>
                         </nav>
-                        <div class="full-width header ">
-                            <img src="images/headerStarwars.png" alt="Header" />
-                        </div>
                         <div class="container">
                             <h1>Word clean up</h1>
                             <div class="row">

@@ -1,0 +1,30 @@
+nav{
+    background-color: #222;
+    height: 50px; 
+    padding-top: 0.6%;
+    transform: rotate(3deg);
+    margin-top: -3%;
+    width: 100%;
+
+    ul{
+        float: right;
+    
+
+        li{
+            display: inline;
+            font-family: 'Din';
+            font-size: 12px;
+            text-transform: uppercase;
+            padding-left: 1%;
+
+            a{
+                color: white;
+
+                &:hover{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    } 
+}

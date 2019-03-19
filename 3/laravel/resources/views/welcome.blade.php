@@ -11,113 +11,8 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
 
-        <!-- Styles -->
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-            }
-
-            @font-face {
-                font-family: Din;
-                src: url('fonts/DIN-Regular.ttf');
-            }
-
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-width: {
-                width: 100%;
-            }
-
-            nav{
-                background-color: #222;
-                height: 50px; 
-                padding-top: 0.9%;
-            }
-
-            ul{
-                float: right;
-            }
-
-            ul li{
-                display: inline;
-                font-family: 'Din';
-                font-size: 10px;
-                text-transform: uppercase;
-                padding-left: 1%;
-            }
-
-            ul li a{
-                color: white;
-            }
-
-            ul li a:hover{
-                color: white;
-                text-decoration: none;
-            }
-
-            .background{
-                background-image: url('images/background.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed;
-            }
-
-            .header img{
-                width: 100%;
-                padding: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
     </head>
     <body>
         <div class="full-height">
@@ -135,6 +30,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="background full-height">
+                        <div class="full-width header ">
+                            <img src="images/headerStarwars.png" alt="Header" />
+                        </div>
                         <nav>
                             <ul class="col col-lg-5">
                                 <li><a href="{{ url('/clean') }}">Word clean up</a></li>
@@ -143,10 +41,6 @@
                                 <li><a href="#">Roman numerals</a></li>
                             </ul>
                         </nav>
-                        <div class="full-width header ">
-                            <img src="images/headerStarwars.png" alt="Header" />
-                        </div>
-                        
                     </div>
                 </div>
 
