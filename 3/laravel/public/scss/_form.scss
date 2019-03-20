@@ -1,0 +1,30 @@
+.fields{
+    color: white;
+
+    input{
+        background-color: #888;
+        border: none;
+        height: 50px;
+    }
+
+    .spacer{
+        width: 150px;
+    }
+
+    button{
+        background: #555;
+        width: 150px;
+        border: none;
+        color: white;
+        font-family: 'Din';
+        margin: 0 auto;
+    }
+
+    #total{
+        font-size: 40px;
+        color: white;
+        font-family: 'Din';
+        text-align: center;
+        padding-top: 10%;
+    }
+}

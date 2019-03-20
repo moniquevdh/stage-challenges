@@ -7,36 +7,39 @@
   padding: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_general\.scss}line{font-family:\000036}}
-html, body {
-  background-image: url("../images/background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_general\.scss}line{font-family:\0000313}}
 .full-width {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_general\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_general\.scss}line{font-family:\0000310}}
 .full-height {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
   height: 100vh; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_general\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_general\.scss}line{font-family:\0000318}}
 h1 {
   color: white;
   font-size: 20px;
   font-family: 'Din';
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 8%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_general\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_general\.scss}line{font-family:\0000326}}
 .container {
   margin-top: 3%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_general\.scss}line{font-family:\0000330}}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_navigation\.scss}line{font-family:\000031}}
 nav {
   background-color: #222;
   height: 50px;
-  padding-top: 0.6%;
+  padding-top: 0.9%;
   transform: rotate(3deg);
   margin-top: -3%;
   width: 100%; }
@@ -58,11 +61,100 @@ nav {
           color: white;
           text-decoration: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_navigation\.scss}line{font-family:\0000332}}
+.menuBlocks {
+  padding-top: 5%;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_navigation\.scss}line{font-family:\0000336}}
+  .menuBlocks .menu {
+    height: 300px;
+    background: #fff;
+    margin-left: 2%; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_text\.scss}line{font-family:\000031}}
 .text {
   font-size: 14px;
   font-family: arial;
   color: white;
-  margin-top: 5%; }
+  margin-top: 3%;
+  line-height: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_text\.scss}line{font-family:\000039}}
+.yoda {
+  margin-top: 2%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_text\.scss}line{font-family:\0000313}}
+.fizzbuzz {
+  color: white;
+  padding-left: 5%;
+  -webkit-column-count: 6;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 6;
+  /* Firefox */
+  column-count: 6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_header\.scss}line{font-family:\000032}}
+.header img {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_code\.scss}line{font-family:\000031}}
+.code {
+  padding-top: 3%;
+  background-color: #e9e9e9;
+  border-left: 5px solid black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_code\.scss}line{font-family:\000036}}
+  .code h2 {
+    font-family: 'Din';
+    text-align: center;
+    color: black;
+    font-size: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_code\.scss}line{font-family:\0000313}}
+  .code strong {
+    font-size: 13px;
+    font-family: 'Din'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_code\.scss}line{font-family:\0000318}}
+  .code pre {
+    margin-top: 3%;
+    text-align: left;
+    font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_code\.scss}line{font-family:\0000323}}
+    .code pre .var {
+      color: #0000ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_code\.scss}line{font-family:\0000327}}
+    .code pre .varName {
+      color: #3399ff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_code\.scss}line{font-family:\0000331}}
+    .code pre .get {
+      color: #ffff00; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_code\.scss}line{font-family:\0000335}}
+    .code pre .string {
+      color: #993300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_form\.scss}line{font-family:\000031}}
+.fields {
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_form\.scss}line{font-family:\000034}}
+  .fields input {
+    background-color: #888;
+    border: none;
+    height: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_form\.scss}line{font-family:\0000310}}
+  .fields .spacer {
+    width: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_form\.scss}line{font-family:\0000314}}
+  .fields button {
+    background: #555;
+    width: 150px;
+    border: none;
+    color: white;
+    font-family: 'Din';
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_form\.scss}line{font-family:\0000323}}
+  .fields #total {
+    font-size: 40px;
+    color: white;
+    font-family: 'Din';
+    text-align: center;
+    padding-top: 10%; }
 
 /*# sourceMappingURL=style.css.map */
