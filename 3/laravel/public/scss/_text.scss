@@ -2,5 +2,18 @@
     font-size: 14px;
     font-family: arial;
     color: white;
-    margin-top: 5%;
+    margin-top: 3%;
+    line-height: 25px;
+}
+
+.yoda{
+    margin-top: 2%;
+}
+
+.fizzbuzz{
+    color: white;
+    padding-left: 5%;
+    -webkit-column-count: 6; /* Chrome, Safari, Opera */
+    -moz-column-count: 6; /* Firefox */
+    column-count: 6;
 }

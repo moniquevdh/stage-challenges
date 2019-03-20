@@ -18,3 +18,15 @@ Route::get('/', function () {
 Route::get('/clean', function () {
     return view('clean');
 });
+
+Route::get('/halloween', function () {
+    return view('halloween');
+});
+
+Route::get('/roman', function () {
+    return view('roman');
+});
+
+Route::get('/fizzbuzz', function () {
+    return view('fizzbuzz');
+});

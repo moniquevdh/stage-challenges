@@ -10,23 +10,13 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 
     </head>
     <body>
         <div class="full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
+          
             <div class="container-fluid">
                 <div class="row">
                     <div class="background full-height">
@@ -36,16 +26,19 @@
                         <nav>
                             <ul class="col col-lg-5">
                                 <li><a href="{{ url('/clean') }}">Word clean up</a></li>
-                                <li><a href="#">Fizz Buzz</a></li>
-                                <li><a href="#">Trick or treat</a></li>
-                                <li><a href="#">Roman numerals</a></li>
+                                <li><a href="{{ url('/fizzbuzz') }}">Fizz Buzz</a></li>
+                                <li><a href="{{ url('/halloween') }}">Trick or treat</a></li>
+                                <li><a href="{{ url('/roman') }}">Roman numerals</a></li>
                             </ul>
                         </nav>
+                        <div class="row full-width menuBlocks">
+                            <div class="col col-lg-2 menu">t</div>
+                            <div class="col col-lg-2 menu">t</div>
+                            <div class="col col-lg-2 menu">t</div>
+                            <div class="col col-lg-2 menu">t</div>
+                        </div>
                     </div>
                 </div>
-
-                    
-                
             </div>
         </div>
     </body>
