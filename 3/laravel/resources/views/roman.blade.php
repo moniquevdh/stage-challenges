@@ -24,7 +24,7 @@
                         </div>
                         <nav>
                             <ul class="col col-lg-5">
-                                <li><a href="{{ url('/clean') }}">Word clean up</a></li>
+                                <li><a href="{{ url('/') }}">Word clean up</a></li>
                                 <li><a href="{{ url('/fizzbuzz') }}">Fizz Buzz</a></li>
                                 <li><a href="{{ url('/halloween') }}">Trick or treat</a></li>
                                 <li><a href="{{ url('/roman') }}">Roman numerals</a></li>
