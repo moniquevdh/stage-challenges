@@ -1,18 +1,18 @@
 .code{
     padding-top: 3%;
-    background-color: #e9e9e9;
-    border-left: 5px solid black;
+    background-color: $color-lightgrey;
+    border-left: 5px solid $color-black;
 
     h2{
-        font-family: 'Din';
+        font-family: $font;
         text-align: center;
-        color: black;
+        color: $color-black;
         font-size: 25px;
     }
 
     strong{
         font-size: 13px;
-        font-family: 'Din';
+        font-family: $font;
     }
 
     pre{
@@ -21,19 +21,19 @@
         font-size: 12px;
 
         .var{
-            color: #0000ff;
+            color: $color-blue;
         }
 
         .varName{
-            color: #3399ff;
+            color: $color-lightblue;
         }
 
         .get{
-            color: #ffff00;
+            color: $color-yellow;
         }
 
         .string{
-            color: #993300;
+            color: $color-brown;
         }
     }
 }

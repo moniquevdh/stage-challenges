@@ -1,8 +1,8 @@
 .fields{
-    color: white;
+    color: $color-white;
 
     input{
-        background-color: #888;
+        background-color: $color-darkgrey;
         border: none;
         height: 50px;
     }
@@ -15,15 +15,15 @@
         background: #555;
         width: 150px;
         border: none;
-        color: white;
-        font-family: 'Din';
+        color: $color-white;
+        font-family: $font;
         margin: 0 auto;
     }
 
     #total{
         font-size: 40px;
-        color: white;
-        font-family: 'Din';
+        color: $color-white;
+        font-family: $font;
         text-align: center;
         padding-top: 10%;
     }
