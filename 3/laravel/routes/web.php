@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/clean', function () {
-    return view('clean');
+Route::get('/easteregg', function () {
+    return view('easteregg');
 });
 
 Route::get('/halloween', function () {

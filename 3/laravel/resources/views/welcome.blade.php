@@ -41,7 +41,7 @@
                                     <p id="paragraph5"></p>
                                 </div>
                                 <div class="col col-lg-6 yoda">
-                                    <img src="images/yoda.jpg" alt="yoda" />
+                                    <a href="{{ url('/easteregg') }}"><img src="images/yoda.jpg" alt="yoda" /></a>
                                 </div>
                             </div>
                         </div>

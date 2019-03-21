@@ -170,4 +170,10 @@ nav {
     text-align: center;
     padding-top: 10%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp64\/www\/challenges\/3\/laravel\/public\/scss\/_easteregg\.scss}line{font-family:\000031}}
+.computer {
+  font-size: 20px;
+  font-family: "Din";
+  color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
