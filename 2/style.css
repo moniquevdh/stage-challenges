@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.fizzbuzz{
+    column-count: 8;
+    column-gap: 0px;
+    font-family: 'Open Sans';
+}
