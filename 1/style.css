@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.paragraphs{
+    font-family: 'Open Sans';
+    line-height: 25px;
+    width: 400px;
+}
